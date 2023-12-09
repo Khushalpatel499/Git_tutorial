@@ -3,7 +3,9 @@
     1. It is basically a version control system which track changes in code. 
     2. main features: a. track the histroy of code.
                       b. collaborate  
-    3. Change in project is two ways in git: 1.add 2.commit
+    3. Change in project is two ways in git: 1.add 2.commit  
+    4.Git work on system for setup we required: a. A code editor <br>
+                                                b. Window(GitBash) or Mac(Terminal)
     
 ## Github-
     1. A website that allow developers to store and manage their code.
