@@ -33,7 +33,7 @@
               command: git add . or git add <--file name-->
     19. commit: it is record of change we have done.
                command: gir commit -m"some message"
-    20.
+    20. All the add and commit which we have done is not show on github, it only available on local system so it only show how much commit we are ahead .
     
     
     
