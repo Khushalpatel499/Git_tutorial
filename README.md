@@ -24,6 +24,11 @@
             b. come outside - cd..  or cd\ -come to main directory
     14. ls -a : to see all files.
     15. Status: display state of code.(git status)
+    16. When we have modifiy our file we have to do two step process add and commit.
+    17.In git staturs we have 4 types files: a. untracked : new file that git doesn't track
+                                             b. modified  : changed in file
+                                             c. staged    : file is ready to commit means when any file is modified or untracked file add then we have to add that file that is staged then after we commit.
+                                             d. unmodified: no change in file
     
     
     
