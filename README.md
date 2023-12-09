@@ -19,7 +19,7 @@
     11. Two Place for changes : 1.remote(ex: github) 2. local(laptop,PC).
     12. Clone -a.To copy any repo form remote to local system.
                b.git clone <--some link-->
-<<<<<<< HEAD
+
    
 =======
     13. cd- change directory which is of two type 
@@ -56,8 +56,7 @@
                      a. to create new branch: git checkout -b brachname
                      b. to go in differnt branch: git checkout branchname(where we want to go)
                      c. if we want to delete any branch: git brach id brachname
-<<<<<<< HEAD
->>>>>>> b7f218ff248a4a62dc2c040b4481d2b4f9fde799
+
 =======
     26.Merge: Two ways: 1.to compare commit,branch,files: git diff <--branchname--> 
                           for merge:             git merge <--branchname-->
@@ -65,7 +64,7 @@
     27.Pull Request:tell others about change you have  pushed in a brach.
     28.pull: remote changes into local system
                command: git pull origin main
->>>>>>> 82454b2c038e852f360298d8f4ef64ead5f26f5e
+
     
     
     
