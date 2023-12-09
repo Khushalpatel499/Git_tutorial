@@ -34,6 +34,21 @@
     19. commit: it is record of change we have done.
                command: gir commit -m"some message"
     20. All the add and commit which we have done is not show on github, it only available on local system so it only show how much commit we are ahead .
+    21. To deal git with github the new push and pull command come.
+    22.push : upload local repo to remote repo
+             command : git push origin main
+    23.General workflow:  make repo on github-> clone to local system -> make change-> add-> commit-> push.
+    24. a.The above method is ok but let suppose already had made a project but now we want to push on github so we have to copy and paste the files into clone repo in general flow.
+        b. So here come int command in picture to connect git.
+        commands: 1.1 first make that git repo by : git init
+                  1.2 and then make repo on github without readmefile because if we made then we can't push because system not have that file.
+                  1.3 now we connect github repo and local repo which is now github repo by git init which add .git hidden file so command is:
+                        git remote add origin <--github repo link-->
+                  1.4 To verify that remote : git remote -v
+                  1.5 to checke branch: git branch  (branch: it is bascially copy of project on which differnt team work under any project)
+                  1.6 to rename brach : git branch -M main
+                  1.7 then now git push origin main 
+                  1.8 we can used above command as git push -u origin main because -u is setupstream which set origin main for whole project so now we have to write only git push command.
     
     
     
