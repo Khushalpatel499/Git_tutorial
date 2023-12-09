@@ -10,6 +10,14 @@
     6. ls  : differnt directories(files) present  
     7. clear : to clear gitbash
     8. pwd : working directory(folder)
+    9. ~ : show to we are in our main or root directory or primary folder
+    10. Git configure: a.It tell git on which account we are going to commit changes.
+                       b.Two types: 1.global 2.local(if you have more than one git account).
+                       c. git config --global user.name"githubAccountName"
+                       d. git config --global user.email"someone@gmail.com"
+                       e. git config --list: to see what we set 
+    
+    
     
     
 ## Github-
