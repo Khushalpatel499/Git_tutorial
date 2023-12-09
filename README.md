@@ -6,5 +6,6 @@
 ## Github-
     1. A website that allow developers to store and manage their code.
     2. We can upload different repository(repo or folder) on github.  
+    3. README.md(readme markdown): We can store the detail about project.
     
     
