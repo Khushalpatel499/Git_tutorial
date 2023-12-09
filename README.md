@@ -29,7 +29,11 @@
                                              b. modified  : changed in file
                                              c. staged    : file is ready to commit means when any file is modified or untracked file add then we have to add that file that is staged then after we commit.
                                              d. unmodified: no change in file
-    
+    18. add :add new or changed file in working directory to the git area to known by git about them.
+              command: git add . or git add <--file name-->
+    19. commit: it is record of change we have done.
+               command: gir commit -m"some message"
+    20.
     
     
     
