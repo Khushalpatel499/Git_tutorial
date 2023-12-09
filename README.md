@@ -23,6 +23,8 @@
             a. go inside - cd foldername
             b. come outside - cd..  or cd\ -come to main directory
     14. ls -a : to see all files.
+    15. Status: display state of code.(git status)
+    
     
     
     
