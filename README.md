@@ -19,7 +19,7 @@
     11. Two Place for changes : 1.remote(ex: github) 2. local(laptop,PC)
     12. Clone -a.To copy any repo form remote to local system.
                b.git clone <--some link-->
-    13.
+   
     
     
     
