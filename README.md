@@ -2,4 +2,7 @@
 ## Git-
     1. It is basically a version control system which track changes in code. 
     2. main features: a. track the histroy of code.
-                      b. collaborate
+                      b. collaborate  
+## Github-
+    1. A website that allow developers to store and manage their code.
+    
