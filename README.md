@@ -4,8 +4,9 @@
     2. main features: a. track the histroy of code.
                       b. collaborate  
     3. Change in project is two ways in git: 1.add 2.commit  
-    4.Git work on system for setup we required: a. A code editor <br>
+    4.Git work on system for setup we required: a. A code editor 
                                                 b. Window(GitBash) or Mac(Terminal)
+    5. git --version : for check the version of git on system
     
 ## Github-
     1. A website that allow developers to store and manage their code.
