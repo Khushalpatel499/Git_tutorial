@@ -7,6 +7,10 @@
     4.Git work on system for setup we required: a. A code editor 
                                                 b. Window(GitBash) or Mac(Terminal)
     5. git --version : for check the version of git on system
+    6. ls  : differnt directories(files) present  
+    7. clear : to clear gitbash
+    8. pwd : working directory(folder)
+    
     
 ## Github-
     1. A website that allow developers to store and manage their code.
