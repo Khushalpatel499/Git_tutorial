@@ -1,2 +1,4 @@
 # Git_tutorial
-1.Git- It is basically a version control system which track changes in code.
+Git-1. It is basically a version control system which track changes in code.
+    2. main features: a. track the histroy of code.
+                      b. collaborate
