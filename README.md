@@ -49,6 +49,10 @@
                   1.6 to rename brach : git branch -M main
                   1.7 then now git push origin main 
                   1.8 we can used above command as git push -u origin main because -u is setupstream which set origin main for whole project so now we have to write only git push command.
+    25. Git branch : work on differnt brach of any project when work on large project and after working on separate branches we have to merge the branches or in general we have to make same code in both branch.
+                     a. to create new branch: git checkout -b brachname
+                     b. to go in differnt branch: git checkout branchname(where we want to go)
+                     c. if we want to delete any branch: git brach id brachname
     
     
     
