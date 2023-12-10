@@ -21,7 +21,6 @@
                b.git clone <--some link-->
 
    
-=======
     13. cd- change directory which is of two type 
             a. go inside - cd foldername
             b. come outside - cd..  or cd\ -come to main directory
@@ -57,7 +56,7 @@
                      b. to go in differnt branch: git checkout branchname(where we want to go)
                      c. if we want to delete any branch: git brach id brachname
 
-=======
+
     26.Merge: Two ways: 1.to compare commit,branch,files: git diff <--branchname--> 
                           for merge:             git merge <--branchname-->
                         2.using git hub by creating PR(pull Request)
