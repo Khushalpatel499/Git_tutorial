@@ -64,6 +64,7 @@
     27.Pull Request:tell others about change you have  pushed in a brach.
     28.pull: remote changes into local system
                command: git pull origin main
+    29.merge conflict: when we merge two branches and  git does not know branch change put in main file.
 
     
     
