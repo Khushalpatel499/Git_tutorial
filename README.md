@@ -65,6 +65,19 @@
     28.pull: remote changes into local system
                command: git pull origin main
     29.merge conflict: when we merge two branches and  git does not know branch change put in main file.
+    30. git log: to check all commit
+    31. Undoing changes: When we change file but we want to go  back.
+                      a. staged change(only add):
+                              git reset <--filename> or git reset
+                      b. commited changes(for one commit)
+                            git reset HEAD~1
+                      c. commited changes (for many commit):
+                            copy the hash of that commit and then
+                            git reset <--commit hash-->
+                            if we want to remove change git as well as from code editor than
+                            git reset --hard <-commit hash-->
+    32.fork: it is a rough copy(make a copy of other project to other github account then we update the code and create pull request to the original account).
+                         
 
     
     
