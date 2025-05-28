@@ -13,6 +13,15 @@
     8. -m stands for "move" (rename)
     9. -u sets tracking — this links your local main to the remote main 
         So future git push and git pull commands will know which remote branch to use
+    10. Delete master branch locally:
+         If it still exists after renaming, and you want to delete it:
+         command: git branch -d master
+         This only works if master is fully merged (safe delete).
+         To force delete, even if it's not merged:
+         command:  git branch -D master
+    11. Delete master branch on GitHub (optional):
+        command: git push origin --delete master
+        Only do this if no one else is using the master branch remotely.
 
 ## Git-
     1. It is basically a version control system which track changes in code. 
