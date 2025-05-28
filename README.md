@@ -87,4 +87,21 @@
     3. README.md(readme markdown): We can store the detail about project.
     4. Commit: change we made in our repo which increase the commit each time.
     
+## Congfigure:
+    1.if you want to use multiple git account then go to the particular repo cd /path/to/repo.
+    2. set configure:     git config user.name "Your Name"                   git config user.email "your-email@example.com"
+    3. check the path of the git repo command: git rev-parse --show-toplevel
+    4. to see git remote url where it is pushing or pulling from command : git remote -v
+    5. to see source of  each git config command: git config --list --show-origin
+       ex: (.git/config = local, .gitconfig = global)
+
+## local folder on github or gitlab:
+   1. create a repo on github or gitlab with readme file and copy the http url.
+   2. go to working local repo in git bash or terminal git intialize using command : git init
+   3. then use git add and  git commit  command.
+   4. now to add remote use: git remote add  origin url .
+   5. and then push on : git push -u origin main
+   6. work done you repo visible on github.
+
+
     
