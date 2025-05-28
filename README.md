@@ -96,12 +96,42 @@
        ex: (.git/config = local, .gitconfig = global)
 
 ## local folder on github or gitlab:
-   1. create a repo on github or gitlab with readme file and copy the http url.
-   2. go to working local repo in git bash or terminal git intialize using command : git init
-   3. then use git add and  git commit  command.
-   4. now to add remote use: git remote add  origin url .
-   5. and then push on : git push -u origin main
-   6. work done you repo visible on github.
+    1. create a repo on github or gitlab without readme file and copy the http url.
+    2. go to working local repo in git bash or terminal git intialize using command : git init
+    3. then use git add and  git commit  command.
+    4. now to add remote use: git remote add  origin url .
+    5. and then push on : git push -u origin main
+    6. work done you repo visible on github.
+    7. if i made the readme file then the repo is not empty and in this case above method cause conflict.
+    8. because both branch is diverged means suppose there are change in main branch and that changes are not in my branch and i want to push the change in the main branch so this called divereged and cause conflict.
+    9. to solve this first pull the remote changes and then push command :git pull origin main --allow-unrelated-histories.
+    10. if you are 100% sure that your local changes overwirte the remote changes then command: git push origin main --force
+    11. to push if i create already a readme file:
+            method1: a. clone the repo
+                b. move local file into clone folder: cp -r /path/to/your/local-project/* repo-name/
+                c. cd repo-name
+                   git add .
+                   git commit -m "Add local project files"
+                   git push origin main
+    12. method2: a. go to local folder : cd /path/to/your/local-project
+                 b. initialized git ( to tell it is git repo): git init
+                 c. set your local config if you want else global will consider : git config user.name "Your Name"      git config user.email "your@email.com"
+                 d. add files:       git add .             git commit -m "Initial local commit"
+                 e. add git remote url of repo: git remote add origin https://github.com/yourusername/repo-name.git
+                 f. now to solve merge conflict pull to get readme file:  git pull origin main --allow-unrelated-histories
+                 g. This downloads the README.md and merges it with our local files.
+                 h. If there's a merge conflict, Git will tell you. You'll need to:
+                        Open the conflicted file (usually README.md), 
+                        Remove the conflict markers (<<<<<<<, =======, >>>>>>>),
+                        Save it, and run:
+                 i. git add README.md
+                    git commit -m "Merge remote README with local files"
+                 j.  now push command : git push origin main
+                 k.  now local and remote repo are combined and sync.
+
+
+                
+
 
 
     
