@@ -1,4 +1,19 @@
 # Git_tutorial
+## master vs main:
+    1. the terms master and main refer to the default branch name in a Git repository.
+    2. master	The original default branch in Git	Used in older Git and GitHub versions.
+    3. main	The new default branch name	Introduced in 2020 as the standard.
+    4. GitHub and other platforms moved from master → main to use more inclusive and neutral language.
+    5. to set default branch name: git config --global init.defaultBranch main
+    6. Now, any time you run git init, the default branch will be main.
+    7. Converting an existing master to main :
+        git branch -m master main
+        git push -u origin main
+        git push origin --delete master
+    8. -m stands for "move" (rename)
+    9. -u sets tracking — this links your local main to the remote main 
+        So future git push and git pull commands will know which remote branch to use
+
 ## Git-
     1. It is basically a version control system which track changes in code. 
     2. main features: a. track the histroy of code.
